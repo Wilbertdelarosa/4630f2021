@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutMe"
+    android:background="#DBE5F1"
+    >
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:text="Home" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About Me!"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:textSize="20dp"/>
+
+
+    <TextView
+        android:id="@+id/b1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/b1"
+        android:layout_centerInParent="true"
+        android:textSize="16dp"
+        />
+    <TextView
+        android:id="@+id/b2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/b2"
+        android:layout_below="@id/b1"
+        android:layout_centerInParent="true"
+        android:textSize="20dp"
+        />
+    <TextView
+        android:id="@+id/b3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/b3"
+        android:layout_below="@id/b2"
+        android:layout_centerInParent="true"
+        android:textSize="20dp"
+        />
+    <TextView
+        android:id="@+id/b4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/b4"
+        android:layout_below="@id/b3"
+        android:layout_centerInParent="true"
+        android:textSize="20dp"
+        />
+    <TextView
+        android:id="@+id/b5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/b3"
+        android:layout_above="@id/b1"
+        android:layout_centerInParent="true"
+        android:textSize="20dp"
+        />
+    <TextView
+        android:id="@+id/b6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/b6"
+        android:layout_above="@id/b5"
+        android:layout_centerInParent="true"
+        android:textSize="20dp"
+        />
+
+</RelativeLayout>
